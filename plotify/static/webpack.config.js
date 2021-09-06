@@ -64,16 +64,6 @@ const appConfig = {
                 })
             },
             {
-                test: /\.scss$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    use: [
-                        'css-loader',
-                        'sass-loader'
-                    ]
-                })
-            },
-            {
                 test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
                 use: [
                     {

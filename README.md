@@ -28,7 +28,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS "AS IS" AND ANY EXPRESS OR IM
 1. Install the required Python packages listed in `requirements.txt`
 1. Build the JavaScript
     - Enter `plotify/static`
-    - Run `npm install`
+    - Run `npm ci`
     - Run `npm run build`
 1. Run `run.py`, your app will be available on `http://localhost:8080`
 
